@@ -3,8 +3,9 @@ import { Rnd } from 'react-rnd';
 const Posts = () => {
   return (
     <Rnd
-      minWidth="50%"
-      default={{ x: 350, y: 400, height: '50%', width: '60%' }}
+      minWidth="500px"
+      className="PostsContainer"
+      default={{ x: 350, y: 400, height: '50%', width: '500px' }}
     >
       <div className="window">
         <div className="title-bar">

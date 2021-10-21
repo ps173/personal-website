@@ -3,7 +3,8 @@ import { Rnd } from 'react-rnd';
 const Projects = () => {
   return (
     <Rnd
-      minWidth="40%"
+      minWidth="400px"
+      className="ProjectsContainer"
       default={{ x: 40, y: 300, height: '50%', width: '40%' }}
     >
       <div className="window">

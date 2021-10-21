@@ -3,15 +3,20 @@ import { Rnd } from 'react-rnd';
 const Contact = () => {
   return (
     <>
-      <Rnd minWidth="50%" default={{ x: 420, y: 120, width: '80%' }}>
+      <Rnd
+        minWidth="500px"
+        className="ContactContainer"
+        default={{
+          x: 420,
+          y: 120,
+          width: '80%',
+        }}
+      >
         <div
           className="window"
           style={{
             position: 'fixed',
-            maxWidth: '50%',
-            minWidth: '30%',
-            width: 'auto',
-            fontSize: '0.8rem',
+            fontSize: '0.9rem',
           }}
         >
           <div className="title-bar">

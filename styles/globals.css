@@ -49,3 +49,46 @@ pre a {
   background-color: #143e99;
   color: aliceblue;
 }
+
+@media screen and (max-width: 1000px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    color: #2f60c0;
+  }
+
+  .terminal-text {
+    font-size: small;
+  }
+
+  .window {
+    transform: scale(1.8);
+  }
+
+  .title-bar-text {
+    display: block;
+    transform: scale(1.5) translateX(20%);
+  }
+  .title-bar {
+    display: block;
+    transform: scaleY(110%);
+  }
+
+  .window-body {
+    font-size: 1.3rem;
+  }
+
+  pre {
+    font-size: 1.3rem !important;
+  }
+}

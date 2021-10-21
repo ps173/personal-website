@@ -1,16 +1,18 @@
-import { useState } from 'react';
 import { Rnd } from 'react-rnd';
 
 const About = () => {
   return (
     <>
-      <Rnd minWidth="60%" default={{ x: 50, y: 50, width: '80%' }}>
+      <Rnd
+        minWidth="650px"
+        className="AboutContainer"
+        default={{ x: 50, y: 50, width: '80%' }}
+      >
         <div
           className="window"
           style={{
             position: 'fixed',
             maxWidth: '50%',
-            minWidth: '30%',
             width: 'auto',
             fontSize: '0.8rem',
           }}
@@ -24,8 +26,8 @@ const About = () => {
               padding: '3%',
             }}
           >
-            <h3> Hello, I am Pratham !!</h3>
-            <h5> a fullstack webdeveloper</h5>
+            <h3>Hello, I am Pratham !!</h3>
+            <h5>a fullstack webdeveloper</h5>
             <p id="text24">
               I am 18 and I really like to play with computers. You may find me
               making some game or maybe some cli or playing with some really old
