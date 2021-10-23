@@ -9,6 +9,10 @@ export default function Home() {
     <>
       <Head>
         <title>Pratham's Website</title>
+        <meta
+          name="description"
+          content="Pratham's Personal Website : Creative Portfolio"
+        />
       </Head>
       <Projects />
       <Posts />
